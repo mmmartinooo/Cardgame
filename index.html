@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <p class="points">Poäng: <span data-game-points></span></p>
+        <p class="p-class2">Försök kvar: <span data-game-attempts-left></span></p>
+    </header>
+    <main class="main">
+        <div id="spelkort">
+            <div id="top"></div>
+            <div id="symbols"></div>
+            <div id="bottom"></div>
+        </div><br>
+
+    </main>
+    <p class="cards-left"><strong>52</strong> kort kvar</p>
+    <footer class="footer">
+        <button data-game-next-lower id="lower">Nästa kort är <strong>lägre</strong></button>
+        <button data-game-next-equal id="equal">Nästa kort är <strong>likvärdig</strong></button>
+        <button data-game-next-higher id="higher">Nästa kort är <strong>högre</strong></button>
+    </footer>
+</body>
+
+</html>

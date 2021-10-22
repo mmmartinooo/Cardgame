@@ -1,0 +1,79 @@
+body {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+div#spelkort {
+    width: 260px;
+    height: 400px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: .5rem;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+    border: .5rem solid white;
+    background: #f7f7f7;
+    color: rgb(206, 56, 56);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .1);
+}
+
+#spelkort div {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#spelkort div#top {
+    margin: .5rem;
+    align-self: flex-start;
+}
+
+#symbols {
+    transform: scale(2.5);
+}
+
+#spelkort div#bottom {
+    transform: rotate(180deg);
+    margin: .5rem;
+    align-self: flex-end;
+}
+
+#lower {
+    border-radius: 5px;
+}
+
+#equal {
+    border-radius: 5px;
+}
+
+#higher {
+    border-radius: 5px;
+}
